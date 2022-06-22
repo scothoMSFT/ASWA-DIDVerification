@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "dnsResolverName": {
+            "value": "adpr-privateresolver-0001"
+        },
+        "location": {
+            "value": "westus3"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/44f7456c-78d8-48fd-a368-16841ab801c0/resourceGroups/rgTestNetMan/providers/Microsoft.Network/virtualNetworks/avn-vnet-westus3-0001"
+        },
+        "virtualNetworkName": {
+            "value": "avn-vnet-westus3-0001"
+        },
+        "dnsResolverDeploymentName": {
+            "value": "dnsResolverDeployment_1653056228354"
+        },
+        "dnsResolverResourceGroup": {
+            "value": "rgTestNetMan"
+        },
+        "inboundEndpointName0": {
+            "value": "ep-inbounndEndpoint0001"
+        },
+        "inboundEndpointSubnetId0": {
+            "value": "/subscriptions/44f7456c-78d8-48fd-a368-16841ab801c0/resourceGroups/rgTestNetMan/providers/Microsoft.Network/virtualNetworks/avn-vnet-westus3-0001/subnets/primary"
+        },
+        "outboundEndpointName0": {
+            "value": "ep-outboundEndpoint-0001"
+        },
+        "outboundEndpointSubnetId0": {
+            "value": "/subscriptions/44f7456c-78d8-48fd-a368-16841ab801c0/resourceGroups/rgTestNetMan/providers/Microsoft.Network/virtualNetworks/avn-vnet-westus3-0001/subnets/secondary"
+        },
+        "outboundEndpointsDeploymentName": {
+            "value": "outboundEndpointsDeployment_1653056228355"
+        }
+    }
+}
